@@ -97,6 +97,7 @@ header .overlay {
   header {
     background: url('video/about-us-bg.mp4') #000 no-repeat center center scroll;
   }
+
   header video {
     display: none;
   }
