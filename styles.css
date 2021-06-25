@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@100;300;400;600;700&display=swap');
+
+body {
+  overflow-y: hidden;
+}
+
+p {
+  font-family: 'Sarabun', sans-serif;
+  letter-spacing: -1px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Arial', sans-serif;
+  letter-spacing: -2px;
+}
+
+header {
+  position: relative;
+  background-color: #000;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  background-color: #489BE8;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.text-white {
+  width: 50% !important;
+  margin-left: -80px;
+}
+
+.display-3 {
+  font-size: 60px;
+  text-align: left;
+}
+
+.cta-button {
+  border-radius: 30px;
+  background-color: #FF6B0B;
+  border-color: #FF6B0B;
+  color: #fff;
+}
+
+.cta-button:hover {
+  background-color: #FF6B0B;
+  border-color: #FF6B0B;
+  color: #fff;
+}
+
+.play-mover {
+  position: absolute;
+  top: 45%;
+  left: 47%;
+}
+
+.play-mover img {
+  cursor: pointer;
+}
+
+.navbar-brand img {
+  height: auto;
+  width: 40%;
+  padding: 10px 0px
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('video/about-us-bg.mp4') #000 no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
