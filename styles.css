@@ -4,12 +4,17 @@ body {
   overflow-y: hidden;
 }
 
-p {
+p,
+.btn {
   font-family: 'Sarabun', sans-serif;
   letter-spacing: -1px;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: 'Arial', sans-serif;
   letter-spacing: -2px;
 }
@@ -35,7 +40,7 @@ header video {
   -ms-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-42%);
 }
 
 header .container {
@@ -74,6 +79,22 @@ header .overlay {
 .cta-button:hover {
   background-color: #FF6B0B;
   border-color: #FF6B0B;
+  color: #fff;
+}
+
+.nav-account-button {
+  border-radius: 30px;
+  padding: 2px 15px;
+  margin-top: 4px;
+  margin-left: 15px;
+  background-color: #489BE8;
+  border-color: #489BE8;
+  color: #fff;
+}
+
+.nav-account-button:hover {
+  background-color: #489BE8;
+  border-color: #489BE8;
   color: #fff;
 }
 
